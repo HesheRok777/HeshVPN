@@ -4,7 +4,7 @@
 
 ## Download
 
-Get the latest Windows installer from [Hesh Releases]([https://github.com/neketoska2013laum-tech/HeshVPN/releases/tag/VPN]). Download `Hesh-Setup.exe` from the latest release assets.
+Get the latest Windows installer from [Hesh Releases](https://github.com/OWNER/REPOSITORY/releases/latest). Download `Hesh-Setup.exe` from the latest release assets.
 
 ## Features
 
@@ -19,7 +19,7 @@ Get the latest Windows installer from [Hesh Releases]([https://github.com/neketo
 
 ## Installation
 
-1. Download `Hesh-Setup.exe` from [Hesh Releases]([https://github.com/neketoska2013laum-tech/HeshVPN/releases/tag/VPN]).
+1. Download `Hesh-Setup.exe` from [Hesh Releases](https://github.com/OWNER/REPOSITORY/releases/latest).
 2. Run the installer and approve the Windows permissions prompt.
 3. Launch Hesh from the desktop shortcut or Start menu.
 4. Add your subscription URL and assign servers to applications.
