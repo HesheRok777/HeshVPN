@@ -4,7 +4,7 @@
 
 ## Download
 
-Get the latest Windows installer from [Hesh Releases](https://github.com/neketoska2013laum-tech/HeshVPN/releases/tag/VPN). Download `Hesh-Setup.exe` from the latest release assets.
+Get the latest Windows installer from [Hesh Releases](https://github.com/neketoska2013laum-tech/HeshVPN/releases/latest). Download the versioned installer, for example `Hesh-Setup-1.0.3.exe`.
 
 ## Features
 
@@ -19,7 +19,7 @@ Get the latest Windows installer from [Hesh Releases](https://github.com/neketos
 
 ## Installation
 
-1. Download `Hesh-Setup.exe` from [Hesh Releases](https://github.com/neketoska2013laum-tech/HeshVPN/releases/tag/VPN).
+1. Download the versioned `Hesh-Setup-X.Y.Z.exe` installer from [Hesh Releases](https://github.com/neketoska2013laum-tech/HeshVPN/releases/latest).
 2. Run the installer and approve the Windows permissions prompt.
 3. Launch Hesh from the desktop shortcut or Start menu.
 4. Add your subscription URL and assign servers to applications.
@@ -44,7 +44,9 @@ Hesh retrieves server configurations from your subscription URL. Subscription li
 
 ## Updating
 
-Download the latest `Hesh-Setup.exe` from the project's Releases page and run it over the existing installation. Local settings are stored separately from application files and should remain available when updating under the same Windows account.
+Hesh checks the latest GitHub release when it starts. If a newer version is available, an **Update** button appears in the lower-left corner. Click it to download and run the installer. Local settings are stored separately from application files and should remain available when updating under the same Windows account.
+
+The in-app update check compares the installed version with the version in the installer filename. Attach a versioned installer such as `Hesh-Setup-1.0.4.exe` to the GitHub release. The release title or tag does not need a version when the asset filename contains it.
 
 ## Troubleshooting
 
@@ -52,6 +54,6 @@ If a connection does not work, open **Logs** in Hesh and save the event log. Rev
 
 ## Project Status
 
-Current version: **1.0.2**.
+Current version: **1.0.3**.
 
 Hesh is an independent client. Support for a protocol depends on the format returned by the subscription provider.
