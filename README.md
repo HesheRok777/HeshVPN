@@ -2,6 +2,10 @@
 
 **Hesh** is a Windows desktop VPN client with per-application routing. Choose which apps use a VPN server and which connect directly.
 
+## Download
+
+Get the latest Windows installer from [Hesh Releases](https://github.com/OWNER/REPOSITORY/releases/latest). Download `Hesh-Setup.exe` from the latest release assets.
+
 ## Features
 
 - Route selected Windows applications through VPN while other traffic stays direct.
@@ -15,7 +19,7 @@
 
 ## Installation
 
-1. Download `Hesh-Setup.exe` from the project's Releases page.
+1. Download `Hesh-Setup.exe` from [Hesh Releases](https://github.com/OWNER/REPOSITORY/releases/latest).
 2. Run the installer and approve the Windows permissions prompt.
 3. Launch Hesh from the desktop shortcut or Start menu.
 4. Add your subscription URL and assign servers to applications.
